@@ -1,6 +1,6 @@
 # Identicon generator
 
-This project generates an Identicon similar to what Github defines as a user's profile picture and was developed in elixir.
+This project generates an Identicon similar to what Github defines as a user's profile picture from MD5 from an input string and was developed in elixir.
 
 ## Usage
 
@@ -9,7 +9,8 @@ This project generates an Identicon similar to what Github defines as a user's p
    1. `mix deps.get`: install project dependencies.
    2. `iex -S mix`: open the interactive elixir.
    3. Inside interactive elixir, run: `Identicon.main(<YOUR_STRING_HERE>)`
-   4. To check the documentation and understand what each method does: 
+   4. The Identicon must have been created in the root folder of the project with the name being the string you put as input.
+   5. To check the documentation and understand what each method does: 
       1. Run `mix docs`.
       2. Open `doc/index.html` file.
 
